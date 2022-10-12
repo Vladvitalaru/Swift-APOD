@@ -2,7 +2,6 @@
 //  APODApp.swift
 //  APOD
 //
-//  Created by Vlad Vitalaru on 4/13/22.
 //
 
 import SwiftUI

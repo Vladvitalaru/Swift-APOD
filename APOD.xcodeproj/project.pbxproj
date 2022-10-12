@@ -11,6 +11,8 @@
 		35072CA92807849500CE1410 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35072CA82807849500CE1410 /* ContentView.swift */; };
 		35072CAB2807849800CE1410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35072CAA2807849800CE1410 /* Assets.xcassets */; };
 		35072CAE2807849800CE1410 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35072CAD2807849800CE1410 /* Preview Assets.xcassets */; };
+		35072CB7280789FF00CE1410 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35072CB6280789FF00CE1410 /* Info.swift */; };
+		35072CB928078A5000CE1410 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35072CB828078A5000CE1410 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		35072CA82807849500CE1410 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35072CAA2807849800CE1410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35072CAD2807849800CE1410 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35072CB6280789FF00CE1410 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		35072CB828078A5000CE1410 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				35072CA62807849500CE1410 /* APODApp.swift */,
 				35072CA82807849500CE1410 /* ContentView.swift */,
+				35072CB6280789FF00CE1410 /* Info.swift */,
 				35072CAA2807849800CE1410 /* Assets.xcassets */,
 				35072CAC2807849800CE1410 /* Preview Content */,
 			);
@@ -62,6 +67,7 @@
 		35072CAC2807849800CE1410 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				35072CB828078A5000CE1410 /* Network.swift */,
 				35072CAD2807849800CE1410 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35072CB7280789FF00CE1410 /* Info.swift in Sources */,
 				35072CA92807849500CE1410 /* ContentView.swift in Sources */,
+				35072CB928078A5000CE1410 /* Network.swift in Sources */,
 				35072CA72807849500CE1410 /* APODApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
